@@ -1,4 +1,5 @@
 const express = require('express');
+const cors = require('cors')
 const app = express()
 
 require('dotenv').config()
@@ -13,6 +14,9 @@ const adminRoute = require('./routes/adminRoute')
 app.use('/api/user',userRoute)
 app.use('/api/admin',userRoute)
 
+app.use(cors({
+    origin:'http://localhost:3000/'
+}))
 
 const port = process.env.PORT || 5000
 
