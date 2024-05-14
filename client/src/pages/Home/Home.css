@@ -1,0 +1,76 @@
+.swiper{
+    width: 930px !important;
+    height: 531px !important;
+}
+.items-1{
+    background-image: url('../../assets/img/reservation.jpg');
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    justify-content: end;
+    color: aqua;
+}
+.items-2{
+    background-image: url('../../assets/img/reservation.jpg');
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    justify-content: end;
+    color: aqua;
+}
+.items-3{
+    background-image: url('../../assets/img/reservation.jpg');
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    justify-content: end;
+    color: aqua;
+}
+.items-4{
+    background-image: url('../../assets/img/reservation.jpg');
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    justify-content: end;
+    color: aqua;
+}
+.items-5{
+    background-image: url('../../assets/img/reservation.jpg');
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    justify-content: end;
+    color: aqua;
+}
+.items-6{
+    background-image: url('../../assets/img/reservation.jpg');
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    justify-content: end;
+    color: aqua;
+}
+
+.local{
+    background-color: #009ef4;
+    padding: 8px 10px;
+    border-radius: 6px;
+    margin-right: 11px;
+    color: #fff;
+    font-weight: 600;
+}
+.locale{
+    font-weight: 600;
+    background-color: chartreuse;
+    color: black;
+    padding: 8px 16px;
+    border-radius: 7px;
+    margin-right: 15px;
+    cursor: pointer;
+}
