@@ -15,7 +15,7 @@ app.use('/api/user',userRoute)
 app.use('/api/admin',userRoute)
 
 app.use(cors({
-    origin:'http://localhost:3000/'
+    origin:'https://vercel-auth-tawny.vercel.app'
 }))
 
 const port = process.env.PORT || 5000
